@@ -25,6 +25,7 @@ export default function Header() {
             Profile
           </Link>
         </nav>
+        <div></div>
       </div>
     </header>
   );
