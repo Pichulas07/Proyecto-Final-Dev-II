@@ -1,6 +1,6 @@
 export default function Login() {
   return (
-    <div className="flex items-center justify-center h-full">
+    <div className="min-h-screen flex items-center justify-center">
       <form action="/home">
         <div className="bg-slate-800 p-8 rounded-2xl shadow-2xl w-[350px] border border-slate-700">
           

@@ -20,7 +20,6 @@ export default function Home() {
                 <div className="bg-white border border-gray-200 p-6 rounded-2xl shadow-sm hover:shadow-md transition-shadow">
                     <div className="flex items-center space-x-4">
                         <div className="bg-blue-100 p-3 rounded-full text-blue-600">
-                           
                         </div>
                         <div>
                             <p className="text-sm text-gray-500 font-medium uppercase tracking-wider">Mascotas registradas</p>
@@ -33,7 +32,6 @@ export default function Home() {
                 <div className="bg-white border border-gray-200 p-6 rounded-2xl shadow-sm hover:shadow-md transition-shadow">
                     <div className="flex items-center space-x-4">
                         <div className="bg-green-100 p-3 rounded-full text-green-600">
-                         
                         </div>
                         <div>
                             <p className="text-sm text-gray-500 font-medium uppercase tracking-wider">Próxima Cita</p>
@@ -45,7 +43,6 @@ export default function Home() {
 
             {/* Recordatorio Simulado */}
             <div className="mt-8 flex items-center p-4 mb-4 text-amber-800 border-t-4 border-amber-300 bg-amber-50 rounded-lg shadow-sm">
-              
                 <div className="text-sm font-medium">
                     <span className="font-bold">Recordatorio:</span> Tu perrito "Bobby" tiene pendiente su desparasitación este mes.
                 </div>

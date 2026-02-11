@@ -5,18 +5,22 @@ import Footer from './shared/Footer'
 import Home from './features/home/Home'
 import Login from './features/Login/Login'
 import Register from './features/Register/Register'
+import Pets from './features/pets/Pets'
+import PetDetails from './features/pets/PetDetails'
 function App() {
 
   return (
     <>
       <BrowserRouter>
-        <div className='min-h-screen flex flex-col'>
+        <div className='min-h-screen flex flex-col bg-gradient-to-t from-white-500 to-blue-300'>
           <Header />
-          <main className="flex-grow flex items-center justify-center px-6">
+          <main className="flex-grow ">
           <Routes>
             <Route path='/' element={<Login />} />
             <Route path='/register' element={<Register />} />
             <Route path='/home' element={<Home />} />
+            <Route path='/pets' element={<Pets />} />
+            <Route path="/pets/:name" element={<PetDetails/>}/>
           </Routes>
           </main>
           <Footer/>
