@@ -11,11 +11,18 @@ export default function PetsList(){
             weigth: "5kg"
         },
         {
-            name: "Fausto",
-            age: "3",
-            race: "whale",
+            name: "Chester",
+            age: "5",
+            race: "dog",
             specie: "Canino",
-            weigth: "1000 TONELADAS"
+            weigth: "3kg"
+        },
+        {
+            name: "Ramona",
+            age: "2",
+            race: "dog",
+            specie: "Canino",
+            weigth: "5kg"
         },
     ];
 

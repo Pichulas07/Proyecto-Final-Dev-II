@@ -12,6 +12,7 @@ export default function PetDetails(){
 
                 <p className="text-lg text-sky-700">
                     Pet name: <span className="font-semibold">{name}</span>
+                    
                 </p>
             </div>
         </div>

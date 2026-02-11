@@ -1,6 +1,6 @@
-export default function Login() {
+export default function Register() {
   return (
-    <div className="flex items-center justify-center h-full">
+    <div className="min-h-screen flex items-center justify-center">
       <form action="/home">
         <div className="bg-slate-800 p-8 rounded-2xl shadow-2xl w-[350px] border border-slate-700">
           
@@ -38,7 +38,7 @@ export default function Login() {
           <div className="mb-6 text-center text-sm text-slate-300">
             <span>already have an account? </span>
             <a
-              href="/Login"
+              href="/"
               className="text-blue-400 hover:text-blue-300 font-semibold"
             >
               Login

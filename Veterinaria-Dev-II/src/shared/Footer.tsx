@@ -5,7 +5,6 @@ export default function Footer() {
     <footer className="bg-[#0b1b3a] text-gray-300 py-2 px-2">
       <div className="max-w-6xl mx-auto grid gap-6 md:grid-cols-2 items-center">
         
-        {/* Texto legal */}
         <p className="text-sm leading-relaxed text-gray-400">
           © 2026 <span className="font-semibold text-white">NovaPet</span>. Todos los derechos reservados. 
         </p>
