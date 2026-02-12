@@ -4,4 +4,5 @@ export interface Pet {
     specie: string;
     race: string;
     weigth: string;
+    image: string;
 }
