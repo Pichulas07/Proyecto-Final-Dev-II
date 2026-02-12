@@ -1,11 +1,12 @@
-  [
-    {
+[
+  {
     "name": "Luna",
     "age": "3",
     "specie": "Perro",
     "race": "Golden Retriever",
-    "weigth": "30kg",
-    "image": "https://example.com/luna.jpg"
+    "weigth": "20kg",
+    "image": "https://i.pinimg.com/736x/50/d7/ea/50d7ea71313f54ea5108bb18105409ba.jpg",
+    "date": "02/11/2022"
   },
   {
     "name": "Milo",
@@ -13,22 +14,7 @@
     "specie": "Gato",
     "race": "Siames",
     "weigth": "5kg",
-    "image": "https://example.com/milo.jpg"
-  },
-  {
-    "name": "Kiwi",
-    "age": "1",
-    "specie": "Ave",
-    "race": "Periquito",
-    "weigth": "0.05kg",
-    "image": "https://example.com/kiwi.jpg"
-  },
-  {
-    "name": "Nala",
-    "age": "4",
-    "specie": "Perro",
-    "race": "Bulldog Francés",
-    "weigth": "12kg",
-    "image": "https://example.com/nala.jpg"
+    "image": "https://www.nacion.com/resizer/v2/WRFEL6OFUZCODFCIT3AJSGLZX4.png?smart=true&auth=da0c69a0024e373457f34148f6ff2dcb43ce9a7561833e87ae46096d0fde1424&width=1680&height=945",
+    "date": "15/03/2023"
   }
 ]
