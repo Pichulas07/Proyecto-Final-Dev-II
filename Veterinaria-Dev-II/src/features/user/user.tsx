@@ -74,7 +74,6 @@ export default function UserPage() {
                 </p>
               </div>
             )}
-
             {user.number && (
               <div className="bg-slate-50 rounded-2xl p-4 border border-slate-200">
                 <p className="text-sm text-slate-500">Teléfono</p>
@@ -84,6 +83,12 @@ export default function UserPage() {
               </div>
             )}
 
+            <Link
+              to="/editProfile"
+              className="inline-block mt-6 bg-sky-600 text-white px-5 py-2 rounded-xl shadow hover:bg-sky-700 transition font-semibold"
+              >
+              Editar perfil
+            </Link>
           </div>
         </div>
       </div>

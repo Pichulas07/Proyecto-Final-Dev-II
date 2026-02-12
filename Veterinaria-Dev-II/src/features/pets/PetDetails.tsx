@@ -50,7 +50,7 @@ export default function PetDetails() {
     );
   }
 
-   return (
+  return (
     <div className="min-h-screen bg-gradient-to-b from-slate-50 via-sky-50 to-white flex justify-center items-start pt-24 px-4">
       <div className="w-full max-w-xl rounded-3xl border border-slate-200/80 bg-white/80 backdrop-blur-xl shadow-2xl p-8">
         <div className="flex items-start justify-between gap-4">
@@ -115,6 +115,59 @@ export default function PetDetails() {
             Pet date:{" "}
             <span className="font-extrabold text-sky-900">{pet.date}</span>
           </p>
+
+          {/* VACUNAS */}
+          <div className="mt-10">
+            <h2 className="text-2xl font-extrabold text-slate-900 mb-4">
+              💉 Vacunas
+            </h2>
+
+            <div className="space-y-3">
+              <div className="bg-slate-50 border border-slate-200 rounded-2xl p-4 shadow-sm">
+                <p className="font-semibold text-sky-900">Antirrábica</p>
+                <p className="text-sm text-slate-600">
+                  Aplicada: 12 Marzo 2025
+                </p>
+              </div>
+
+              <div className="bg-slate-50 border border-slate-200 rounded-2xl p-4 shadow-sm">
+                <p className="font-semibold text-sky-900">Parvovirus</p>
+                <p className="text-sm text-slate-600">
+                  Aplicada: 20 Enero 2025
+                </p>
+              </div>
+
+              <div className="bg-slate-50 border border-slate-200 rounded-2xl p-4 shadow-sm">
+                <p className="font-semibold text-sky-900">Moquillo</p>
+                <p className="text-sm text-slate-600">
+                  Aplicada: 10 Diciembre 2024
+                </p>
+              </div>
+            </div>
+          </div>
+
+          {/* CONSULTAS */}
+          <div className="mt-10">
+            <h2 className="text-2xl font-extrabold text-slate-900 mb-4">
+              🩺 Consultas
+            </h2>
+
+            <div className="space-y-3">
+              <div className="bg-white border border-slate-200 rounded-2xl p-4 shadow-sm">
+                <p className="font-semibold text-sky-900">Revisión General</p>
+                <p className="text-sm text-slate-600">
+                  15 Abril 2025 — Chequeo anual sin complicaciones.
+                </p>
+              </div>
+
+              <div className="bg-white border border-slate-200 rounded-2xl p-4 shadow-sm">
+                <p className="font-semibold text-sky-900">Control de peso</p>
+                <p className="text-sm text-slate-600">
+                  02 Febrero 2025 — Recomendación de dieta balanceada.
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
 
         <div className="mt-8">

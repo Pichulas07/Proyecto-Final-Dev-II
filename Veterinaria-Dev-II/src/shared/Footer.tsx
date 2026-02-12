@@ -15,7 +15,7 @@ export default function Footer() {
           
           <div className="flex gap-4">
             <a
-              href=""
+              href="https://www.facebook.com/"
               className="hover:text-blue-500 transition-colors duration-200"
             >
               <img src={NovaFace} 
@@ -24,7 +24,7 @@ export default function Footer() {
             </a>
 
             <a
-              href=""
+              href="https://www.instagram.com/"
               className="hover:text-pink-500 transition-colors duration-200"
             >
               <img src={NovaInsta} 

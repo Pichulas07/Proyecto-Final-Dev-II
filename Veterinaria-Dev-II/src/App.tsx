@@ -6,6 +6,7 @@ import Home from './features/home/Home'
 import Pets from './features/pets/Pets'
 import PetDetails from './features/pets/PetDetails'
 import User from './features/user/user'
+import EditProfile from './features/user/EditProfile'
 function App() {
 
   return (
@@ -19,6 +20,7 @@ function App() {
             <Route path='/home' element={<Home />} />
             <Route path='/pets' element={<Pets />} />
             <Route path='/profile' element={<User />} />
+            <Route path="/editProfile" element={<EditProfile />} />
             <Route path="/pets/:name" element={<PetDetails/>}/>
           </Routes>
           </main>
