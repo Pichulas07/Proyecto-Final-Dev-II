@@ -84,6 +84,7 @@ export default function UserPage() {
             )}
 
             <Link
+              data-cy="edit-profile"
               to="/editProfile"
               className="inline-block mt-6 bg-sky-600 text-white px-5 py-2 rounded-xl shadow hover:bg-sky-700 transition font-semibold"
               >

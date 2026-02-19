@@ -3,12 +3,12 @@ import type { Pet } from "../../models/Pet";
 export default function PetCard(props: Pet) {
   return (
     <a
+      data-cy ="pet-card"
       href={`/pets/${props.name}`}
       className="group block overflow-hidden rounded-2xl border border-slate-200/70 bg-white/75 backdrop-blur-xl shadow-lg
                  hover:shadow-2xl hover:-translate-y-1 transition-all duration-300
                  focus:outline-none focus:ring-2 focus:ring-sky-500/40"
     >
-      {/* IMAGEN */}
       <div className="relative">
         <img
           src={props.image}
@@ -26,7 +26,7 @@ export default function PetCard(props: Pet) {
       {/* CONTENIDO */}
       <div className="p-6">
         <div className="flex items-start justify-between gap-4">
-          <h2 className="text-xl font-extrabold tracking-tight text-slate-900 group-hover:text-sky-800 transition">
+          <h2 data-cy = "pet-name" className="text-xl font-extrabold tracking-tight text-slate-900 group-hover:text-sky-800 transition">
             {props.name}
           </h2>
           <div className="h-9 w-9 rounded-xl bg-gradient-to-br from-sky-800 to-teal-400 shadow-sm opacity-90 group-hover:opacity-100 transition" />

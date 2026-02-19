@@ -6,7 +6,7 @@ export default function Header() {
     <header className="bg-[#00609C] shadow-lg">
       <div className="max-w-7xl mx-auto px-6 py-4 flex items-end justify-between">
 
-        <Link to="/home" className="group flex items-center gap-3">
+        <Link data-cy="img" to="/home" className="group flex items-center gap-3">
           <img
             src={NovaPet}
             alt="NovaPet logo"
@@ -16,7 +16,7 @@ export default function Header() {
             Nova<span className="text-cyan-400">Pet</span>
           </h1>
         </Link>
-        <nav className="flex gap-6 text-white font-medium">
+        <nav data-cy = "header" className="flex gap-6 text-white font-medium">
           <Link to="/pets" className="hover:text-cyan-400 transition-colors">
             Pets
           </Link>
