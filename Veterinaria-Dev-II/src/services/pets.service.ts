@@ -10,7 +10,7 @@ export async function getPets(): Promise<Pet[]> {
     }
 
     const data = await response.json();
-    console.log("Peliculas cargadas", data);
+    console.log("Mascotas cargadas", data);
     return data as Pet[];
 }
 

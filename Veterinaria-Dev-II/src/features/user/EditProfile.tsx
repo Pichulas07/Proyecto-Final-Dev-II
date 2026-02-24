@@ -28,7 +28,7 @@ export default function EditProfile() {
     setMessage("Cambios guardados correctamente (simulado)");
 
     setTimeout(() => {
-      navigate("/profile"); // vuelve al perfil
+      navigate("/profile");
     }, 1500);
   };
 

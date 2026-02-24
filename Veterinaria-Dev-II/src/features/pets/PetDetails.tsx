@@ -89,7 +89,6 @@ export default function PetDetails() {
           </div>
         </div>
 
-        {/* INFO */}
         <div className="mt-6 space-y-3 text-slate-700">
           <p className="text-lg">
             Pet name:{" "}
@@ -115,8 +114,6 @@ export default function PetDetails() {
             Pet date:{" "}
             <span className="font-extrabold text-sky-900">{pet.date}</span>
           </p>
-
-          {/* VACUNAS */}
           <div className="mt-10">
             <h2 className="text-2xl font-extrabold text-slate-900 mb-4">
               💉 Vacunas
@@ -146,7 +143,6 @@ export default function PetDetails() {
             </div>
           </div>
 
-          {/* CONSULTAS */}
           <div className="mt-10">
             <h2 className="text-2xl font-extrabold text-slate-900 mb-4">
               🩺 Consultas
