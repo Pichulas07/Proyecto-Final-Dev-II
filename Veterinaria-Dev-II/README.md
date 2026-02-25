@@ -11,6 +11,6 @@ Valeria Sanchez Roladan C5J699
 
 Rafael Angel Porras Rakow C5I449
 
-Jered Arias Avila C5C7
+Jered Arias Avila C5C706
 
 Amanda Bolaños Alfaro C5D230

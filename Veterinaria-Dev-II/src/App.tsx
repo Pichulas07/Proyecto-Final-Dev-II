@@ -7,6 +7,7 @@ import Pets from './features/pets/Pets'
 import PetDetails from './features/pets/PetDetails'
 import User from './features/user/user'
 import EditProfile from './features/user/EditProfile'
+import NotFound from './shared/NotFound'
 function App() {
 
   return (
@@ -22,6 +23,7 @@ function App() {
             <Route path='/profile' element={<User />} />
             <Route path="/editProfile" element={<EditProfile />} />
             <Route path="/pets/:name" element={<PetDetails/>}/>
+            <Route path='*' element={<NotFound/>} />
           </Routes>
           </main>
           <Footer/>
